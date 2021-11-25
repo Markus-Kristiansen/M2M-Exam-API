@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/Markus-Kristiansen/M2M-Exam-API/issues"
   },
-  "homepage": "https://github.com/Markus-Kristiansen/M2M-Exam-API#readme"
+  "homepage": "https://github.com/Markus-Kristiansen/M2M-Exam-API#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13",
+    "nodemon": "^2.0.15"
+  }
 }
