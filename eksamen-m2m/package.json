@@ -1,0 +1,24 @@
+{
+  "name": "eksamen-m2m",
+  "version": "1.0.0",
+  "description": "This is an API used in an exam for supporting soda machines. Used for a prototype which will store data about soda machines for machine to machine purposes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Markus-Kristiansen/M2M-Exam-API.git"
+  },
+  "keywords": [
+    "Node",
+    "API",
+    "MongoDB"
+  ],
+  "author": "Markus Kristiansen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Markus-Kristiansen/M2M-Exam-API/issues"
+  },
+  "homepage": "https://github.com/Markus-Kristiansen/M2M-Exam-API#readme"
+}
