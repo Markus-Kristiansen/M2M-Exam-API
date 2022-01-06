@@ -22,9 +22,11 @@
   },
   "homepage": "https://github.com/Markus-Kristiansen/M2M-Exam-API#readme",
   "dependencies": {
+    "axios": "^0.24.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^6.0.13",
+    "mqtt": "^4.2.8",
     "nodemon": "^2.0.15"
   }
 }

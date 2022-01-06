@@ -1,9 +1,16 @@
 const express = require("express");
+const MQTT = require("../mqtt/mqtt");
+const Machine = require("../models/machine");
 
 const router = express.Router();
 
+MQTT.subscribeToTopic("machine/kjell");
+MQTT.subscribeToTopic("machine/karl");
+
 router.get("/soda-machines", (req, res) => {
-  res.send("Hello from the soda machines list.");
+  Machine.find({}).then((data) => {
+    res.send(data);
+  });
 });
 
 router.get("/soda-machines/:id", (req, res) => {

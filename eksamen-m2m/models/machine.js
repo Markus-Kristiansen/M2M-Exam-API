@@ -6,6 +6,10 @@ const MachineSchema = new Schema({
     type: String,
     required: [true, "topic has to be part of the request."],
   },
+  machine: {
+    type: String,
+    required: [true, "machine has to be part of the request."],
+  },
   sodaArray: [
     {
       cola: {
@@ -18,7 +22,7 @@ const MachineSchema = new Schema({
       },
     },
   ],
-  sodaMachineId: {
+  machineId: {
     type: Number,
     required: [true, "A machine has to have their own unique machine ID."],
   },
